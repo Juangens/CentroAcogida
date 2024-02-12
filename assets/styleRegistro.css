@@ -1,0 +1,46 @@
+body {
+    background-image: url('./../img/pogo2.jpg');      
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-left: 250px; /* Ajusta el valor según sea necesario para mover el formulario hacia la izquierda */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #006400; /* Verde oscuro para el color del texto */
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
